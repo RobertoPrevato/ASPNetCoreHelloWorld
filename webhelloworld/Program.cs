@@ -21,8 +21,6 @@ namespace webhelloworld
         public static IWebHost BuildWebHost(string[] args) {
             var serverPort = Environment.GetEnvironmentVariable("SERVER_PORT") ?? "5000";
             return WebHost.CreateDefaultBuilder(args)
-                .UseKestrel()
-                .UseIISIntegration()
                 .UseStartup<Startup>()
                 .UseUrls($"http://0.0.0.0:{serverPort}")
                 .Build();
