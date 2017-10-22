@@ -2,3 +2,7 @@
 obj/
 bin/
 out/
+
+*.trx
+*.webtestResult
+.vs/
