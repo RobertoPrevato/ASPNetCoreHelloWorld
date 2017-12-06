@@ -4,7 +4,7 @@
     <Request Method="GET" Guid="5fc18330-697f-4109-8765-a87e90bf6cd2" Version="1.1" Url="{{url}}" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
   </Items>
   <ContextParameters>
-    <ContextParameter Name="url" Value="http://winaspcorehelloworld-dev-westeurope-webapp.azurewebsites.net/" />
+    <ContextParameter Name="url" Value="https://aaawinaspcorehelloworld-dev-westeurope-webapp.azurewebsites.net" />
   </ContextParameters>
   <ValidationRules>
     <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
